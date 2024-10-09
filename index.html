@@ -3,14 +3,34 @@
 <head>
   <meta charset="UTF-8">
   <title> Wijnand Ketellapper's links</title>
-  <style> * {
-    border: 1px red dashed;
-  }</style>
+  <style> 
+    * {
+      border: 1px red dashed;
+    }
+    body {
+      padding-top: 40px;
+      padding-bottom: 40px;
+    }
+    .avatar-image {
+    width: 128px;
+    height: 128px;
+    object-fit: cover;
+    border-radius: 128px;
+    }
+
+    .thumbnail {
+    width: 48px;
+    height: 48px;
+    border-radius: 48px;
+    object-fit: cover;
+    }
+    
+  </style>
 </head>
 <body>
   <div class="main-container">
     <div class="image-row">
-      <img src="/WKetellapper-Photo.jpg"
+      <img src="/WKetellapper-Photo.jpg" class="avatar-image">
     </div>
 
     <div class="name-row">
@@ -29,14 +49,14 @@
       <a href="https://facebook.com/wijnand-ketellapper" target="_blank">
         Facebook
     
-    <div class="item">
-        <img src="/Dutch news.png"
+    <div class="item" 
+        <img src="/Dutch news.png" class="thumbnail">
           <a target="_blank" href="https://nos.nl/nieuws/binnenland">
             Dutch News
           </a>
 
     <div class="item">
-            <img src="Dutch football news.png">
+            <img src="Dutch football news.png" class="thumbnail">
               <a target="_blank" href="https://www.voetbalprimeur.nl/">
                 Dutch Football News
               </a>
