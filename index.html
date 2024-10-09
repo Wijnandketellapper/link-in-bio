@@ -2,6 +2,7 @@
 <html>
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title> Wijnand Ketellapper's links</title>
   <style> 
     * {
@@ -16,7 +17,8 @@
       padding-top: 40px;
       padding-bottom: 40px;
       background: linear-gradient(90deg, #003f5b, #005665, #006c64, #008056, #558f3d, #919805, #ca9a00, #ff9913);
-      color: (rgba(101, 0, 4, 1));
+      color: rgba(0, 0, 4, 100);
+      font-family: "Impact"
     }
     
     .avatar-image {
@@ -33,10 +35,44 @@
     object-fit: cover;
     }
 
-    a {color: (rgba(101, 0, 4, 1));}
+    a {color: rgba(0, 0, 4, 100);
+      text-decoration: none;}
+
+    .item {background-color: rgb(197, 185, 168);}
+
+    .main-container {
+      max-width: 640px;
+      margin: auto;
+    }
+
+    .image-row {
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    .name-row {
+      margin-bottom: 30px;
+      text-align: center;
+      font-family: "Georgia";
+      font-size: 30px;
+      font-weight: 900;
+    }
+
+    .social-icons-row {
+      margin-bottom: 30px;
+      display: flex;
+      justify-content: space-around;
+    }
 
     .item {
-      background-color: rgba(55, 0, 255, 0.03);
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+    }
+
+    .link-text {
+      text-align: center;
+      flex-grow: 1;
     }
     
   </style>
@@ -62,19 +98,22 @@
 
       <a href="https://facebook.com/wijnand-ketellapper" target="_blank">
         Facebook
+      </a>
+    </div>
     
-    <div class="item">
+    <div class="links-row">
+      <div class="item">
         <img src="Dutch news.png" class="thumbnail">
-          <a target="_blank" href="https://nos.nl/nieuws/binnenland">
+        <a class="link-text" target="_blank" href="https://nos.nl/nieuws/binnenland">
             Dutch News
-          </a>
+        </a>
+      </div>
 
-    <div class="item">
+      <div class="item">
             <img src="Dutch football news.png" class="thumbnail">
-              <a target="_blank" href="https://www.voetbalprimeur.nl/">
+              <a class="link-text" target="_blank" href="https://www.voetbalprimeur.nl/">
                 Dutch Football News
               </a>
-
       </div>
     </div> 
   </div> 
